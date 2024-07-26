@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ex": "^0.1.4",
+    "express": "^4.19.2",
+    "file-uri-to-path": "^2.0.0",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "fix-esm-import-path": "^1.10.0"
+  },
+  "description": ""
+}

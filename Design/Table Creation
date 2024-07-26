@@ -1,0 +1,25 @@
+use socialmedia;
+
+create table users (
+id integer primary key auto_increment,
+name varchar(50),
+profile varchar(50),
+password varchar(50),
+headline varchar(100),
+token varchar(500)
+);
+
+create table posts (
+profile varchar(50),
+content varchar(5000),
+likes integer,
+shares integer
+);
+
+
+insert into users (name, profile, password, headline, token)
+values ('UA', 'udaya', 'ud@abc', 'educ','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c')
+
+
+insert into posts(profile, content, likes, shares)
+values ('uday entri', 'Lorem ipsum dolor sit ametconsectetur adipiscing elits', 3,6);

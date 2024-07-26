@@ -1,0 +1,33 @@
+.seat{
+    background-color: green;
+    height: 30px;
+    width: 35px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected{
+    background-color: orange;
+}
+
+.seat.occupied{
+    background-color: black;
+}
+
+
+.seat:nth-of-type(4n){
+    margin-right: 20px;
+
+}
+.screen{
+    background-color: silver;
+    height: 70px;
+    width: 350px;
+    margin: 15px ;
+    transform: perspective(400px) rotateX(-45deg);
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-4346.jpg?q=10&h=200);
+background-size: cover;
+}
